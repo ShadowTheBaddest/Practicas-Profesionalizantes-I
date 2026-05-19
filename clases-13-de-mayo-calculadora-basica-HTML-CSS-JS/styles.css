@@ -1,0 +1,39 @@
+/* Estilo general del cuerpo de la página */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal que centra la calculadora */
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Caja principal de la calculadora */
+.calculator {
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Estilo de las etiquetas de texto */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Grilla para ordenar los botones */
+.buttons {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Estilo del texto donde se muestra el resultado */
+#result {
+    font-size: 20px;
+    font-weight: bold;
+}

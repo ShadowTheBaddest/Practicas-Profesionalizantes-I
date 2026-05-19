@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+
+    <!-- Biblioteca W3.CSS para estilos rápidos -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Hoja de estilos propia -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Contenedor principal de la calculadora -->
+    <main class="w3-container container">
+        <!-- Tarjeta visual de la calculadora -->
+        <div class="w3-card-4 w3-white calculator">
+            <!-- Encabezado principal -->
+            <header class="w3-container w3-blue">
+                <h2>Simple Calculator</h2>
+            </header>
+
+            <!-- Sección donde están los campos y botones -->
+            <section class="w3-container w3-padding">
+                <!-- Etiqueta e input del primer número -->
+                <label>Number 1:</label>
+                <input class="w3-input w3-border" type="number" id="number1">
+
+                <!-- Etiqueta e input del segundo número -->
+                <label>Number 2:</label>
+                <input class="w3-input w3-border" type="number" id="number2">
+
+                <!-- Grupo de botones para las operaciones -->
+                <div class="buttons">
+                    <button class="w3-button w3-green" id="add">Add</button>
+                    <button class="w3-button w3-orange" id="subtract">Subtract</button>
+                    <button class="w3-button w3-purple" id="multiply">Multiply</button>
+                    <button class="w3-button w3-red" id="divide">Divide</button>
+                </div>
+
+                <!-- Panel donde se muestra el resultado -->
+                <div class="w3-panel w3-pale-blue w3-leftbar w3-border-blue">
+                    <h3>Result:</h3>
+                    <p id="result">Waiting for operation...</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Archivo JavaScript con la lógica de la calculadora -->
+    <script src="script.js"></script>
+</body>
+</html>
