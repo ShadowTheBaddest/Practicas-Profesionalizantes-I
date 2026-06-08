@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Arkanoid</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="game-container">
+
+    <div class="game-info">
+      <h2>Arkanoid</h2>
+
+      <p>Score: <span id="scoreText">0</span></p>
+      <p>High Score: <span id="highScoreText">0</span></p>
+      <p>Lives: <span id="livesText">3</span></p>
+      <p>Level: <span id="levelText">1</span></p>
+      <p>Balls: <span id="ballsText">1</span></p>
+
+      <button id="musicButton">Música: OFF</button>
+
+      <div class="legend">
+        <p><span class="power life"></span> +1 vida</p>
+        <p><span class="power paddle"></span> barra grande</p>
+        <p><span class="power ball"></span> pelota extra</p>
+      </div>
+    </div>
+
+    <canvas id="mycanvas" width="480" height="800"></canvas>
+
+  </div>
+
+  <audio id="backgroundMusic" src="background.mp3" loop></audio>
+  <audio id="brickBreakSound" src="brick-break.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

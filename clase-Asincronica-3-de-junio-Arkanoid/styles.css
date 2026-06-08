@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding-top: 20px;
+}
+
+.game-info {
+  width: 230px;
+  padding: 20px;
+  background: #56625a;
+  color: white;
+  border-radius: 10px;
+}
+
+.game-info h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.game-info p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#musicButton {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  background: #B89A35;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#musicButton:hover {
+  background: #a88728;
+}
+
+.legend {
+  margin-top: 10px;
+}
+
+.legend p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.power {
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.life {
+  background: #FFD700;
+}
+
+.paddle {
+  background: #00E5FF;
+}
+
+.ball {
+  background: #C77DFF;
+}
+
+ canvas {
+    background: #5b635d;
+    display: block;
+    margin: 0 auto;
+ }
